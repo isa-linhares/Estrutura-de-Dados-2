@@ -1,5 +1,6 @@
 Lista de Atividades
 
+
 Atividade 1 - Listas
 numeros = []
 
@@ -24,6 +25,7 @@ print(f"Maior valor: {maior}")
 print(f"Menor valor: {menor}")
 print(f"Quantidade de números pares: {len(pares)}")
 
+
 Atividade 2 — Matrizes
 matriz = []
 
@@ -47,6 +49,7 @@ print(f"\nSoma de todos os elementos: {soma_total}")
 print(f"Soma da diagonal principal: {soma_diagonal}")
 print(f"Maior elemento: {maior_elemento}")
 
+
 Atividade 3 — Dicionário
 livro = {}
 
@@ -68,9 +71,9 @@ print("\nDados atualizados:")
 for chave, valor in livro.items():
     print(f"{chave}: {valor}")
 
+
 Atividade 4 — Dataclass
 from dataclasses import dataclass
-
 
 @dataclass
 class Aluno:
@@ -82,13 +85,12 @@ class Aluno:
     def media(self):
         return (self.nota1 + self.nota2) / 2
 
-
 aluno = Aluno("Maria", 12345, 8.0, 9.0)
 print(aluno.media())
 
+
 Atividade 5 — Lista de objetos
 from dataclasses import dataclass
-
 
 @dataclass
 class Aluno:
@@ -120,6 +122,7 @@ for aluno in alunos:
 
 melhor_aluno = max(alunos, key=lambda a: a.media())
 print(f"\nAluno com maior média: {melhor_aluno.nome} ({melhor_aluno.media():.2f})")
+
 
 Desafio integrador — Sistema de estoque
 from dataclasses import dataclass
