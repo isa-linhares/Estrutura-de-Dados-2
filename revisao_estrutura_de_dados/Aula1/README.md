@@ -1,4 +1,4 @@
-**Estrutura de Dados 1**
+# Estrutura de Dados 1
 
 Este projeto foi desenvolvido para a matéria de Estrutura de Dados 1, utilizando a linguagem C.
 
